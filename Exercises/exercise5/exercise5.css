@@ -1,0 +1,36 @@
+h1{
+  color: white;
+}
+header{
+  background-color: #988CE8;
+}
+a:link{
+  color: green;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+h2{
+  color: blue;
+}
+.doctor{
+  color: orange;
+}
+h3{
+  background-color: yellow;
+}
+#fires{
+  color: red;
+}
+h4{
+  color: yellow;
+  background-color: #125D0D;
+}
+#fathers{
+  background-color: #25A01C;
+}
+h5{
+  color: purple;
+}
