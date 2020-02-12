@@ -1,0 +1,36 @@
+body{
+  font-family: sans-serif;
+}
+#info{
+  text-align: center;
+}
+h1{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h2{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h3{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+h4{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.imgbox{
+  border: 15px solid #000000;
+  padding: 5px;
+}
+body {
+background-color: #6D8BA5;
+background-image: url(isupic.jpg);
+background-repeat: no-repeat;
+background-position: top right;
+}
