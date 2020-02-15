@@ -1,0 +1,82 @@
+#smurple{
+  color: #91159D;
+  font-size: 14px;
+  word-spacing: .5em;
+  letter-spacing: .25em;
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+#boot{
+  color: #91159D;
+  font-size: 25px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+}
+
+#big{
+  color: #FA0F0F;
+  font-size: 110px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.title{
+  border-top: 3px solid #91159D;
+  padding-bottom: 465px;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+#bink{
+  color: #FF28E2;
+}
+
+.smurple{
+  color: #91159D;
+  font-size: 20px;
+}
+
+.red{
+  color: #FA0F0F;
+  font-size: 27px;
+}
+
+.pink{
+  color: #FF28E2;
+  font-size: 27px;
+}
+
+#spink{
+  color: #FF28E2;
+  font-size: 12px;
+  border-top: 2px;
+  padding-top: 4px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  padding-bottom: 7px;
+  text-align: center;
+  border-top: 3px solid  #91159D;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+body{
+  width: 575px;
+  font-family: impact;
+  word-spacing: 1.25;
+  background-image: url(Lakeith.jpg);
+  background-size: 575px 750px;
+  background-repeat: no-repeat;
+  background-color: #F9D235;
+}
+
+#name{
+  word-spacing: .4em;
+}
+
+#img{
+  padding: 0px 150px 10px 210px;
+  margin-top: 0px;
+  height: 30px;
+  width: 150px;
+}
