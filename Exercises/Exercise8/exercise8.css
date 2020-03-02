@@ -1,0 +1,108 @@
+body{
+  background-image: url(greenbackground.jpg);
+  background-repeat: repeat;
+
+}
+
+h1{
+  font-family: georgia, sans-serif;
+  text-align: left;
+  background-color: blue;
+  border: 2px solid black;
+  padding: 13px;
+  grid-column: span 3;
+  margin: 0;
+}
+
+nav{
+  font-family: helvetica, sans-serif;
+  grid-column: span 3;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+nav li{
+  width: 175px;
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav li a{
+  display: block;
+  background-color: green;
+  padding; 15px;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.wrapper{
+  margin: 3em auto;
+  padding: 0;
+  width: 960px;
+  border: 2px solid black;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+main{
+  font-family: helvetica sans-serif;
+  grid-column: span 2;
+  display: grid;
+  grid-template: 2fr;
+}
+
+h2{
+  font-family: helvetica sans-serif;
+  border-bottom: 2px;
+  border-color: white;
+}
+
+aside{
+  grid-column: span 1;
+  height: 100;
+  background-color: blue;
+  color: white;
+  width: 320px;
+  float: right;
+  margin: 5px;
+  padding: 5px;
+}
+
+#italicsthing{
+  font-style: italic;
+}
+
+footer{
+  background-color: blue;
+  font-weight: bold;
+  grid-column: span 3;
+  margin: 0;
+  border: 2px solid black;
+}
+
+main a{
+  color: green;
+  text-decoration: none;
+}
+
+#peopletalking{
+  margin: 20px;
+  float: right;
+}
+
+#one{
+  border-bottom: 2px solid black;
+}
+
+#two{
+  border-bottom: 2px solid white;
+}
