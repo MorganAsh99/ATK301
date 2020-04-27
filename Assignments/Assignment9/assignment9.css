@@ -4,7 +4,7 @@ body {
 
 h1{
   text-align: center;
-  column-span: span 5;
+  column-span: span 7;
   font-size: 100px;
   font-family: Segoe UI,Segoe, sans-serif;
   font-weight: normal;
@@ -32,7 +32,7 @@ nav li {
   width: 150px;
   background-color: white;
   color: black;
-  column-span: span 3;
+  column-span: span 6;
   font-size: 30px;
   font-family: Segoe UI,Segoe, sans-serif;
 }
@@ -70,6 +70,17 @@ nav li a {
   grid-template-rows: 600px; This is for the dummy columns, replace or delete */
 }
 
+#bottom{
+  float: right;
+  width: 75px;
+  height: 50px
+}
+
+#top{
+  float: right;
+  width: 60px;
+  height: 60px;
+}
 /* style for dummy columns, delete and replace with your own CSS
 .dummycolumn {
   background-color: rgba(255,0,0,.25);
