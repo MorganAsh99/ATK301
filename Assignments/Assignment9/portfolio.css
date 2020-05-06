@@ -83,3 +83,8 @@ h1{
   font-size: 30px;
   font-family: 'Muli', sans-serif;
 }
+
+video{
+  padding-top: 15px;
+  padding-left: 20px;
+}
