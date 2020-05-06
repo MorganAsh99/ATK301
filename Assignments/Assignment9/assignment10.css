@@ -14,6 +14,7 @@ a:hover{
   color: gray;
   font-weight: 400;
 }
+
 h1{
   text-align: center;
   column-span: span 7;
@@ -60,11 +61,6 @@ nav li a {
   height: 700px;
 }
 
-#footer p{
-  float: left;
-  font-family: 'Muli', sans-serif;
-}
-
 #footer{
   border-bottom: 4px solid black;
   border-left: 4px solid black;
@@ -78,32 +74,13 @@ nav li a {
   padding: 24px;
   background-color: white;
   display: grid;
-  /* grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 24px;
-  grid-template-rows: 600px; This is for the dummy columns, replace or delete */
-}
-
-#footer .far{
-  float: right;
-  font-size: 35px;
 }
 
 #footer .fab{
-  float: right;
   font-size: 35px;
-}
-
-#footer a{
-  padding: 0px 5px 0px 0px;
+  padding: 5px;
 }
 
 #footer p{
-  padding: 5px;
-  float: left;
+  text-align: center;
 }
-/* style for dummy columns, delete and replace with your own CSS
-.dummycolumn {
-  background-color: rgba(255,0,0,.25);
-  grid-column: span 1;
-}
-*/
